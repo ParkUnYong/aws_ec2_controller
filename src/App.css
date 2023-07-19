@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  align-items: center;
+  /*display: flex;*/
+}
+
+body{
+  font-family :
+  'nanumsquare';
+}
+
+.black-nav{
+  background : black;
+  width : 100%;
+  display : flex;
+  color : white;
+  padding : 20px;
+  font-weight : 600;
+  font-size : 20px;
+  text-align: center;
+}
+
+.form {
+  flex: 1; /* 버튼을 뺀 빈 공간을 모두 채워줍니다 */
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c5f6fa;
+  size : large;
+}
+
+.list{
+  margin-top : 30px;
+  text-align : center;
+  padding-left : 20px;
+  padding-right : 20px;
+}
+
+
+
+.create-button {
+  padding-top: 0.1rem; /* 새로 공백 길이 */
+  padding-bottom: 0.5rem;
+  padding-left: 10rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  background: #22b8cf;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background: #3bc9db;
+  width: 700px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.button{
+  width: 20vh;
+  color: white;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.Chip{  
+  font-size: 50px;
+  width: 10vw;
+  margin : 20px;
+  background: pink;
+}
+
+.css-1iz24ed-MuiChip-root{
+  width: 30vw;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  
+}
